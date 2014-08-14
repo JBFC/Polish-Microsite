@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title><%= title %></title>
+
+	<!-- Bootstrap -->
+	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Site-specific -->
+	<link href="stylesheets/style.css" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+  <body>
+  	<!-- START BOOTSTRAP CONTAINER -->
+  	<div class='container-fluid'>
+
+  		<!-- HEADER -->
+  		<nav class="navbar navbar-fixed-top navbar-default visible-xs mobile-menu" role="navigation" >
+  			<div class="container">
+  				<div class="navbar-header">
+  					<a href='#' class="btn btn-default navbar-toggle" data-toggle="collapse" data-target="#mob-menu">
+  						<h4>MENU</h4>
+  					</a>
+  				</div>
+
+  				<div class="collapse navbar-collapse" id="mob-menu" style='color: #fff;'>
+
+  					<div class='row'>
+  						<div class='col-lg-2 col-md-2 col-sm-2 column'></div>
+  						<div class='col-lg-8 col-md-8 col-sm-8 column'>
+  							<ul class='nav'>
+  								<li class="active"><a class='current-page' href="/">Films</a></li>
+  								<li><a href="/directors">Directors</a></li>
+  								<li><a href="/media">Media</a></li>
+  								<li><a href="/about">About</a></li>
+  								<li><a href="#" class='play-trailer-link'>Trailer</a></li>
+  							</ul>
+  						</div>
+  						<div class='col-lg-2 col-md-2 col-sm-2 column'></div>
+  					</div>
+
+  				</div>
+  			</div>
+  		</nav>
+
+  		<div class='row'>
+
+  			<div class='col-lg-12 omg'>
+  				<div class='header-group'>
+  					<div class="mobile-padding visible-xs" role="navigation" ></div>
+  					<div class='row'>
+  						<div class='col-lg-12 col-md-12 col-sm-12 header-image'>
+
+  							<div class='video-background row'>
+  								<div class='video-holder'>
+  									<div style='position:absolute; right:0;' class='close'>
+	  									<a class='btn btn-danger pull-right' href='#'>CLOSE</a>
+	  								</div>
+  									<iframe 
+	  									id="vimeoplayer" 
+	  									src="//player.vimeo.com/video/101926078?api=1&player_id=vimeoplayer" 
+	  									width="100%" 
+	  									height="100%" 
+	  									frameborder="0" 
+	  									webkitallowfullscreen 
+	  									mozallowfullscreen 
+	  									allowfullscreen>
+	  								</iframe>
+	  								
+  								</div>
+  							</div>
+
+  						</div>
+
+  						<div class='col-lg-12 col-md-12 col-sm-12 omgnav hidden-xs'>
+  							<div class='row soclassy' >
+  								<div class='col-lg-2 col-md-2 col-sm-2 hidden-xs' style='height:100%;'></div>
+  								<div class='col-lg-8 col-md-8 col-sm-8'>
+  									<ul>
+  										<li class="active"><a class='current-page' href="/">Films</a></li>
+  										<li><a href="/directors">Directors</a></li>
+  										<li><a href="/media">Media</a></li>
+  										<li><a href="/about">About</a></li>
+  										<li><a href="#" class='play-trailer-link'>Trailer</a></li>
+  									</ul>
+  								</div>
+  								<div class='col-lg-2 col-md-2 col-sm-2 hidden-xs'></div>
+  							</div>
+
+  						</div>
+
+  					</div>			
+  				</div>
+  			</div>
+
+  		</div>
+  		<!-- END HEADER -->
+
+
+
+  		<!-- START MAIN CONTENT -->
+  		<div class='main-content'> 
+
+        <div class='event-group'>
+          <div class='row'>
+            <div class='container'>
+              <div class='col-lg-12 col-md-12 col-sm-12'>
+                <p class='text-center about-intro'>
+                  Organized by Martin Scorsese and his nonprofit The Film Foundation, this selection - curated by Scorsese himself - features films by some of Poland's most accomplished and lauded filmmakers, spanning the period from 1957 to 1987. You'll never see these important movies looking more beautiful than they do here.
+                </p>
+                <p class='text-center about-intro final'>
+                  All the films in this series have been digitally remastered and brilliantly restored with new subtitles. Courtesy Milestone Films.
+                </p>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+
+
+  			<!-- BEGIN FILM GROUP -->
+  			<div class='event-group'>
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12 event-image' style='background-image:url("/images/films/AshesAndDiamonds1.jpg");'>
+  						<!-- Holds the film image. -->
+  					</div>
+  				</div>	
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12'>
+  						<div class='row info-row'>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs'>
+
+  							</div>
+  							<div class='col-lg-3 col-md-3 col-sm-3 columns'>
+  								<h1 class='film-title'><strong>Ashes and Diamonds</strong> <span class='release-year'>1958</span></h1>
+  								<h1 class='film-title polish-title'><span class='release-year'>POPIÓŁ I DIAMENT</span></h1>
+  								<ul>
+  									<li>Directed by <strong><a class='director-link' href='/directors#andrezj'>Andrzej Wajda</a></strong>.</li>
+  									<li>Written by by Jerzy Andrzejewski and Andrzej Wajda.</li>
+  								</ul>
+  								<ul>
+  									<li>1960 BAFTA Awards – BAFTA Film Award – nomination.</li>
+  									<li>1956 Venice Film Festival – FIPRESCI Prize -winner.</li>
+  								</ul>
+  								<div class='row buy-tickets'>
+  									<div class='col-lg-12'>
+  										<a href='http://www.burnsfilmcenter.org/films/film-series/detail/78167#78169'>
+		  									<h3>
+		  										<img src='/images/flower.png' width="37px" height="37px" alt='blue flowers' />
+		  										buy tickets
+		  									</h3>
+		  								</a>
+	  								</div>
+  								</div>
+  							</div>
+  							<div class='col-lg-7 col-md-7 col-sm-7 columns'>
+  								<p>
+  									<em>Ashes and Diamonds</em> is set on the last day of World War II and the first day of peace. And between them, a night that changes everything. Seen through the eyes of Maciek, a young Polish resistance soldier, the old is rapidly mixing with the new. In a few hours dawn will end the Nazi slavery of the country, but also will bring a new communist regime to Poland. This is not the independence the idealistic young man and his brothers in arms have been fighting and dying for. Should Maciek continue his combat when he wants so badly to live a normal, peaceful life? An iconic portrait of the dilemma of a whole generation in Poland, rooted in the literary tradition of great, tragic dramas of romanticism. 104 minutes.
+  								</p>
+
+  							</div>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs columns'>
+
+  							</div>
+  						</div>
+  					</div>
+  				</div>	
+  			</div>
+
+
+  			<!-- BEGIN FILM GROUP -->
+  			<div class='event-group'>
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12 event-image' style='background-image:url("/images/films/Austeria.jpg");'>
+  						<!-- Holds the film image. -->
+  					</div>
+  				</div>	
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12'>
+  						<div class='row info-row'>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs'>
+
+  							</div>
+  							<div class='col-lg-3 col-md-3 col-sm-3 columns'>
+  								<h1 class='film-title'><strong>Austeria</strong> <span class='release-year'>1982</span></h1>
+  								<h1 class='film-title polish-title'><span class='release-year'>Austeria</span></h1>
+  								<ul>
+  									<li>Directed by <strong><a class='director-link' href='/directors#jerzy'>Jerzy Kawalerowicz</a></strong>.</li>
+  									<li>Written by by Jerzy Kawalerowicz, Tadeusz Konwicki, Julian Stryjkowski.</li>
+  								</ul>
+  								<ul>
+  									<li>1984 Polish Film Festival – Golden Lions – winner.</li>
+  									<li>1982 Chicago IFF – Gold Hugo – nomination.</li>
+  								</ul>
+  								<div class='row buy-tickets'>
+  									<div class='col-lg-12'>
+  										<a href='http://www.burnsfilmcenter.org/films/film-series/detail/78167#78189'>
+		  									<h3>
+		  										<img src='/images/flower.png' width="37px" height="37px" alt='blue flowers' />
+		  										buy tickets
+		  									</h3>
+		  								</a>
+	  								</div>
+  								</div>
+  							</div>
+  							<div class='col-lg-7 col-md-7 col-sm-7 columns'>
+  								<p>
+  									Director Jerzy Kawalerowicz fantasized about creating a film about an extinct world, a community long dead. <em>Austeria</em> mourns a culture now extinct. Set against the turbulent history of the first half of the 20th century, the film examines the lives of Polish Jews on the eve of World War I. Refugees ranging from a Hungarian hussar to an Austrian Baroness seek sanctuary from the Russian army in a country inn, the eponymous “Austeria,” which belongs to a Jewish innkeeper called Tag.</p>
+								<p>
+									Tag watches as the war and the looming Russian army draw ever closer. The final scene of the film brings with it the mass destruction of unsuspecting Jewish civilians, foreshadowing the events of the Holocaust. Though almost instantly received as a masterpiece, the Commission for Film Approval forced Kawalerowicz, a Communist Party member, to alter his original ending, thereby dispelling any negative image of the Russian regime. The director acquiesced, and a new scene was conceived, removing the Russian soldiers as murderers. 107 minutes.
+  								</p>
+
+  							</div>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs columns'>
+
+  							</div>
+  						</div>
+  					</div>
+  				</div>	
+  			</div>
+
+
+  			<!-- BEGIN FILM GROUP -->
+  			<div class='event-group'>
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12 event-image' style='background-image:url("/images/films/blackcross1.jpg");'>
+  						<!-- Holds the film image. -->
+  					</div>
+  				</div>	
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12'>
+  						<div class='row info-row'>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs'>
+
+  							</div>
+  							<div class='col-lg-3 col-md-3 col-sm-3 columns'>
+  								<h1 class='film-title'><strong>Black Cross</strong> <span class='release-year'>1960</span></h1>
+  								<h1 class='film-title polish-title'><span class='release-year'>KRZYŻACY</span></h1>
+  								<ul>
+  									<li>Directed by <strong><a class='director-link' href='/directors#aleksander'>Aleksander Ford</a></strong>.</li>
+  									<li>Written by Aleksander Ford and Jerzy Stefan Stawiński, based on the novel by Henryk Sienkiewicz.</li>
+  								</ul>
+  								<ul>
+  									<li>1960 Złota Kaczka (Golden Duck Award, presented by the monthly Film) for best film.</li>
+  								</ul>
+  								<div class='row buy-tickets'>
+  									<div class='col-lg-12'>
+  										<a href='http://www.burnsfilmcenter.org/films/film-series/detail/78167#78510'>
+		  									<h3>
+		  										<img src='/images/flower.png' width="37px" height="37px" alt='blue flowers' />
+		  										buy tickets
+		  									</h3>
+		  								</a>
+	  								</div>
+  								</div>
+  							</div>
+  							<div class='col-lg-7 col-md-7 col-sm-7 columns'>
+  								<p>
+  									The first Polish historical blockbuster and the most viewed Polish movie of all time, <em>Black Cross</em> features battles galore, political maneuvering, and tragic love set in medieval times. Based on the novel written in the thick of the Germanization program, <em>Black Cross</em> depicts the heroic Polish campaign against the invading Order of the Teutonic Knights. Devoid of anachronisms, Aleksander Ford’s creation was masterfully produced as a grand historical epic. The film garnered 14 million viewers in the first four years after release, earning export to 46 different countries. 172 minutes.
+  								</p>
+
+  							</div>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs columns'>
+
+  							</div>
+  						</div>
+  					</div>
+  				</div>	
+  			</div>
+
+
+  			<!-- BEGIN FILM GROUP -->
+  			<div class='event-group'>
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12 event-image' style='background-image:url("/images/films/blindchance2.jpg");'>
+  						<!-- Holds the film image. -->
+  					</div>
+  				</div>	
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12'>
+  						<div class='row info-row'>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs'>
+
+  							</div>
+  							<div class='col-lg-3 col-md-3 col-sm-3 columns'>
+  								<h1 class='film-title'><strong>Blind Chance</strong> <span class='release-year'>1981</span></h1>
+  								<h1 class='film-title polish-title'><span class='release-year'>PRZYPADEK</span></h1>
+  								<ul>
+  									<li>Directed by <strong><a class='director-link' href='/directors#kieslowski'>Krzysztof Kieślowski</a></strong>.</li>
+  									<li>Written by Krzysztof Kieślowski.</li>
+  								</ul>
+  								<ul>
+  									<li>1987 Polish Film Festival – Best Actor (Bogusław Linda) – winner, Silver Lion – winner.</li>
+  								</ul>
+  								<div class='row buy-tickets'>
+  									<div class='col-lg-12'>
+  										<a href='http://www.burnsfilmcenter.org/films/film-series/detail/78167#78506'>
+		  									<h3>
+		  										<img src='/images/flower.png' width="37px" height="37px" alt='blue flowers' />
+		  										buy tickets
+		  									</h3>
+		  								</a>
+	  								</div>
+  								</div>
+  							</div>
+  							<div class='col-lg-7 col-md-7 col-sm-7 columns'>
+  								<p>
+  									One moment, one train — three completely different outcomes. From Director Krzysztof Kieślowski comes a film examining the effect of even the smallest of choices. Twenty-year-old Witek Dlugosz rushes to make a train to Warsaw, his hometown, after the death of his father. Crashing into a man drinking beer, Witek is barely able to pull himself aboard by the final car’s handrail. On the train, he encounters an old communist, who convinces him to join the Communist Party. All seems fine until his beautiful lover Czuszka is arrested by the same party with which his allegiance lies. Their love falters, she rejects him, and Witek is left alone. </p>
+
+									<p>Back in the station, Witek crashes hard into the man drinking beer, delaying him enough to miss his train. On the railway, he smacks into a guard and is arrested. Angry, he joins the anti-Communist resistance, thus launching another sequence of events that leaves him alone and distrusted.</p>
+
+									<p>Finally, in the station again, Witek misses the train because he gets slowed down by the man with the beer, but stops to catch his breath, avoiding the guard from the second scenario. He sees Olga at the platform, the two return to her apartment, have a child, and get married. Witek finds the motivation to finish medical school, and with newfound responsibilities, he refuses to associate with any political party, avoiding the Communists completely and forging a happy life for himself. <em>Blind Chance</em> was heavily censored by the communist regime, due to its anti-Communist messages. The now restored version of the film comprises scenes never before shown to the public. 122 minutes.
+
+  								</p>
+
+  							</div>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs columns'>
+
+  							</div>
+  						</div>
+  					</div>
+  				</div>	
+  			</div>
+
+
+
+  			<!-- BEGIN FILM GROUP -->
+  			<div class='event-group'>
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12 event-image' style='background-image:url("/images/films/camouflage3.jpg");'>
+  						<!-- Holds the film image. -->
+  					</div>
+  				</div>	
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12'>
+  						<div class='row info-row'>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs'>
+
+  							</div>
+  							<div class='col-lg-3 col-md-3 col-sm-3 columns'>
+  								<h1 class='film-title'><strong>Camouflage</strong> <span class='release-year'>1976</span></h1>
+  								<h1 class='film-title polish-title'><span class='release-year'>Barwy Ochronne</span></h1>
+  								<ul>
+  									<li>Directed by <strong><a class='director-link' href='/directors#zanussi'>Krzysztof Zanussi</a></strong>.</li>
+  									<li>Written by Krzysztof Zanussi.</li>
+  								</ul>
+  								<ul>
+  									<li>1981 New York Film Critics Circle Awards – Special Award – winner.</li>
+                    <li>1978 Rotterdam IFF – Critics Award – winner.</li>
+  									<li>1977 Polish Film Festival – Best Screenplay – winner, Best Actor (Zbigniew Zapasiewicz) – winner, Grand Prix Golden Lions – winner.</li>
+  									<li>1977 Tehran IFF – Best Directing – winner.</li>
+  								</ul>
+  								<div class='row buy-tickets'>
+  									<div class='col-lg-12'>
+  										<a href='http://www.burnsfilmcenter.org/films/film-series/detail/78167#78176'>
+		  									<h3>
+		  										<img src='/images/flower.png' width="37px" height="37px" alt='blue flowers' />
+		  										buy tickets
+		  									</h3>
+		  								</a>
+	  								</div>
+  								</div>
+  							</div>
+  							<div class='col-lg-7 col-md-7 col-sm-7 columns'>
+  								<p>
+  									An ironical and absurd comedy, <em>Camouflage</em> transports us to a university summer school camp. The shallowness and cynicism of the academic milieu becomes apparent through the relationship between a young linguistics professor, Jaroslaw, and his diabolical senior colleague, Jakub. “All people are conformists just like you and I,” exclaims the latter, protesting against the liberal teaching approach of Jaroslaw. Renowned contemporary Polish director Krzysztof Zanussi presents the deeply troubling premise of academic conformity with witty humor mocking the status quo. Not intended as a political film, Camouflage was harshly received by the Polish government, immediately landing on the year’s list of banned films. 100 minutes.
+  								</p>
+
+  							</div>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs columns'>
+
+  							</div>
+  						</div>
+  					</div>
+  				</div>	
+  			</div>
+
+
+
+
+  			<!-- BEGIN FILM GROUP -->
+  			<div class='event-group'>
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12 event-image' style='background-image:url("/images/films/constantfactor1.jpg");'>
+  						<!-- Holds the film image. -->
+  					</div>
+  				</div>	
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12'>
+  						<div class='row info-row'>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs'>
+
+  							</div>
+  							<div class='col-lg-3 col-md-3 col-sm-3 columns'>
+  								<h1 class='film-title'><strong>The Constant Factor</strong> <span class='release-year'>1980</span></h1>
+  								<h1 class='film-title polish-title'><span class='release-year'>Constans</span></h1>
+  								<ul>
+  									<li>Directed by <strong><a class='director-link' href='/directors#zanussi'>Krzysztof Zanussi</a></strong>.</li>
+  									<li>Written by Krzysztof Zanussi.</li>
+  								</ul>
+  								<ul>
+  									<li>1980 Cannes Film Festival – Jury Prize – winner, Prize of the Ecumenical Jury – winner, Palme d’Or –nomination.</li>
+  									<li>1980 Polish Film Festival – Special Jury Prize – winner.</li>
+  								</ul>
+  								<div class='row buy-tickets'>
+  									<div class='col-lg-12'>
+  										<a href='http://www.burnsfilmcenter.org/films/film-series/detail/78167#78179'>
+		  									<h3>
+		  										<img src='/images/flower.png' width="37px" height="37px" alt='blue flowers' />
+		  										buy tickets
+		  									</h3>
+		  								</a>
+	  								</div>
+  								</div>
+  							</div>
+  							<div class='col-lg-7 col-md-7 col-sm-7 columns'>
+  								<p>
+  									Warmly received at the Cannes Festival and winner of several international awards, Krzysztof Zanussi’s film portrays a naïve but honest young man, Witold, dealing with the truths of his world. He dreams of climbing the Himalayas, just as his father had done before him. His skill in mathematics earns him a job in an international trade company, but he soon finds the position grating and he is constantly thwarted by his own candidness. Confronting the death of his mother, the illusion of choice, and the realities of his world, Witold continues forward in this frightening but powerful film. 90 minutes.
+  								</p>
+
+  							</div>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs columns'>
+
+  							</div>
+  						</div>
+  					</div>
+  				</div>	
+  			</div>
+
+
+
+  			<!-- BEGIN FILM GROUP -->
+  			<div class='event-group'>
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12 event-image' style='background-image:url("/images/films/TheIllumination.jpg");'>
+  						<!-- Holds the film image. -->
+  					</div>
+  				</div>	
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12'>
+  						<div class='row info-row'>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs'>
+
+  							</div>
+  							<div class='col-lg-3 col-md-3 col-sm-3 columns'>
+  								<h1 class='film-title'><strong>The Illumination</strong> <span class='release-year'>1972</span></h1>
+  								<h1 class='film-title polish-title'><span class='release-year'>Illuminacja</span></h1>
+  								<ul>
+  									<li>Directed by <strong><a class='director-link' href='/directors#zanussi'>Krzysztof Zanussi</a></strong>.</li>
+  									<li>Written by Krzysztof Zanussi.</li>
+  								</ul>
+  								<ul>
+  									<li>1974 Polish Film Festival – Special Jury Prize– winner.</li>
+  									<li>1973 Chicago IFF – Gold Hugo – nomination.</li>
+  									<li>1973 Locarno IFF – FIPRESCI Prize – winner, Golden Leopard – winner, Prize of the Ecumenical Jury – winner.</li>
+  								</ul>
+  								<div class='row buy-tickets'>
+  									<div class='col-lg-12'>
+  										<a href='http://www.burnsfilmcenter.org/films/film-series/detail/78167#78173'>
+		  									<h3>
+		  										<img src='/images/flower.png' width="37px" height="37px" alt='blue flowers' />
+		  										buy tickets
+		  									</h3>
+		  								</a>
+	  								</div>
+  								</div>
+  							</div>
+  							<div class='col-lg-7 col-md-7 col-sm-7 columns'>
+  								<p>
+  									In this classic bildungsroman, a young man from a provincial town comes to the capital to study physics, hoping that science can answer his questions. He explores the boundaries of knowledge while tackling universal life experiences — love, death, friendship, fatherhood, and work. <em>The Illumination</em> is a philosophical essay written with a camera, comprising animation, experimental techniques, and documentary footage. Director Krzysztof Zanussi’s protagonist struggles against the futility of a life constantly overshadowed by death. However, in the face of defeat, he rejects nihilism and resignation to his fate in favor of a simplistic view of life: fragile but treasured. With the success of this masterpiece, Mr. Zanussi’s career blossomed into international renown, proving that philosophy could be translated into successful cinema. 92 minutes.
+  								</p>
+
+  							</div>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs columns'>
+
+  							</div>
+  						</div>
+  					</div>
+  				</div>	
+  			</div>
+
+
+  			<!-- BEGIN FILM GROUP -->
+  			<div class='event-group'>
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12 event-image' style='background-image:url("/images/films/lastdayofsummer1.jpg");'>
+  						<!-- Holds the film image. -->
+  					</div>
+  				</div>	
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12'>
+  						<div class='row info-row'>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs'>
+
+  							</div>
+  							<div class='col-lg-3 col-md-3 col-sm-3 columns'>
+  								<h1 class='film-title'><strong>The Last Day of Summer</strong> <span class='release-year'>1958</span></h1>
+  								<h1 class='film-title polish-title'><span class='release-year'>OSTATNI DZIEŃ LATA</span></h1>
+  								<ul>
+  									<li>Directed by <strong><a class='director-link' href='/directors#tadeusz'>Tadeusz Konwicki</a></strong>.</li>
+  									<li>Written by Tadeusz Konwicki.</li>
+  								</ul>
+  								<ul>
+  									<li>1958 Venice Film Festival – Grand Prix.</li>
+  									<li>1958 Brussels, EXPO 58 – Main Award for Experimental Film.</li>
+  								</ul>
+  								<div class='row buy-tickets'>
+  									<div class='col-lg-12'>
+  										<a href='http://www.burnsfilmcenter.org/films/film-series/detail/78167#78363'>
+		  									<h3>
+		  										<img src='/images/flower.png' width="37px" height="37px" alt='blue flowers' />
+		  										buy tickets
+		  									</h3>
+		  								</a>
+	  								</div>
+  								</div>
+  							</div>
+  							<div class='col-lg-7 col-md-7 col-sm-7 columns'>
+  								<p>
+  									A subtle, almost quasi-documentary tale of a confrontation between two lonely people — one from which true understanding cannot seemingly result, <em>The Last Day of Summer</em> was the least expensive feature film in the history of Polish cinema. The crew had only one Ariflex camera and 6,000 meters of black-and-white film to create this artistic masterpiece. The idea? Two people meet on an empty beach. They can’t communicate. A crew of five people took this ascetic screenplay and created an equally austere movie. The film was awarded the Grand Prix in Venice for documentary and short films, as well as the Grand Prix of the EXPO in Brussels and the First Prize of MFF in London. 61 minutes.
+  								</p>
+
+  							</div>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs columns'>
+
+  							</div>
+  						</div>
+  					</div>
+  				</div>	
+  			</div>
+
+
+
+  			<!-- BEGIN FILM GROUP -->
+  			<div class='event-group'>
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12 event-image' style='background-image:url("/images/films/manofiron.jpg");'>
+  						<!-- Holds the film image. -->
+  					</div>
+  				</div>	
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12'>
+  						<div class='row info-row'>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs'>
+
+  							</div>
+  							<div class='col-lg-3 col-md-3 col-sm-3 columns'>
+  								<h1 class='film-title'><strong>Man of Iron</strong> <span class='release-year'>1981</span></h1>
+  								<h1 class='film-title polish-title'><span class='release-year'>CZŁOWIEK Z ŻELAZA</span></h1>
+  								<ul>
+  									<li>Directed by <strong><a class='director-link' href='/directors#andrezj'>Andrzej Wajda</a></strong>.</li>
+  									<li>Written by Aleksander Ścibor-Rylski.</li>
+  								</ul>
+  								<ul>
+  									<li>1982 New York Film Critics Circle Awards –Special Award – winner, NYFCC 2nd Award.</li>
+  									<li>1982 London Critics Circle Film Awards – ALFS Award – winner.</li>
+  									<li>1982 Cinema Writers Circle Awards, Spain – CEC Award – winner.</li>
+  									<li>1982 César Awards, France – César – nomination.</li>
+  									<li>1982 Academy Awards®, USA – Oscar® – nomination.</li>
+  									<li>1981 Chicago IFF – Gold Hugo – winner.</li>
+  									<li>1981 Cannes Film Festival – Palme d’Or – winner, Prize of the Ecumenical Jury – winner.</li>
+  								</ul>
+  								<div class='row buy-tickets'>
+  									<div class='col-lg-12'>
+  										<a href='http://www.burnsfilmcenter.org/films/film-series/detail/78167#78185'>
+		  									<h3>
+		  										<img src='/images/flower.png' width="37px" height="37px" alt='blue flowers' />
+		  										buy tickets
+		  									</h3>
+		  								</a>
+	  								</div>
+  								</div>
+  							</div>
+  							<div class='col-lg-7 col-md-7 col-sm-7 columns'>
+  								<p>
+  									A masterful story about the limitations of the press coupled with real footage of the Solidarity movement strikes, <em>Man of Iron</em> expands on the plot of its predecessor, <em>Man of Marble</em>. Winner of the Palme d’Or at the Cannes Film Festival and nominated for an Academy Award®, the film examines the events leading to one of the most crucial historical events of the 20th century. The movie was produced in haste at the express wish of the shipyard workers (with the use of their own archives) to support their strike. It features, among others, future Nobel Prize Winner and Polish President Lech Wałęsa as himself, and captures the passion, tragedy, and anxiety of the times. 153 minutes.
+  								</p>
+  							</div>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs columns'>
+
+  							</div>
+  						</div>
+  					</div>
+  				</div>	
+  			</div>
+
+
+
+
+  			<!-- BEGIN FILM GROUP -->
+  			<div class='event-group'>
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12 event-image' style='background-image:url("/images/films/motherjoan1.jpg");'>
+  						<!-- Holds the film image. -->
+  					</div>
+  				</div>	
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12'>
+  						<div class='row info-row'>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs'>
+
+  							</div>
+  							<div class='col-lg-3 col-md-3 col-sm-3 columns'>
+  								<h1 class='film-title'><strong>Mother Joan of the Angels</strong> <span class='release-year'>1960</span></h1>
+  								<h1 class='film-title polish-title'><span class='release-year'>MATKA JOANNA OD ANIOŁÓW</span></h1>
+  								<ul>
+  									<li>Directed by <strong><a class='director-link' href='/directors#jerzy'>Jerzy Kawalerowicz</a></strong>.</li>
+  									<li>Written by Jerzy Kawalerowicz and Tadeusz Konwicki.</li>
+  								</ul>
+  								<ul>
+  									<li>1961 Cannes Film Festival – Jury Special Prize – winner, Palme d’Or – nominated.</li>
+  								</ul>
+  								<div class='row buy-tickets'>
+  									<div class='col-lg-12'>
+  										<a href='http://www.burnsfilmcenter.org/films/film-series/detail/78167#78358'>
+		  									<h3>
+		  										<img src='/images/flower.png' width="37px" height="37px" alt='blue flowers' />
+		  										buy tickets
+		  									</h3>
+		  								</a>
+	  								</div>
+  								</div>
+  							</div>
+  							<div class='col-lg-7 col-md-7 col-sm-7 columns'>
+  								<p>
+  									Young, virtuous exorcist Father Suryn is assigned a difficult task: he must investigate a case of demonic possession after a local priest is burnt for tempting the nuns of a convent. Arriving at the nunnery, he meets its abbess, Mother Joan, thus embarking on a struggle against the forces of darkness to save her soul. Inevitably the priest must choose between sacrificing his own purity and saving the convent from evil. A visually sophisticated film, <em>Mother Joan of the Angels</em> is a study of faith, sin, and redemption. 110 minutes.
+  								</p>
+  							</div>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs columns'>
+  								
+  							</div>
+  						</div>
+  					</div>
+  				</div>	
+  			</div>
+
+
+
+
+  			<!-- BEGIN FILM GROUP -->
+  			<div class='event-group'>
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12 event-image' style='background-image:url("/images/films/nighttrain.jpg");'>
+  						<!-- Holds the film image. -->
+  					</div>
+  				</div>	
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12'>
+  						<div class='row info-row'>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs'>
+
+  							</div>
+  							<div class='col-lg-3 col-md-3 col-sm-3 columns'>
+  								<h1 class='film-title'><strong>Night Train</strong> <span class='release-year'>1959</span></h1>
+  								<h1 class='film-title polish-title'><span class='release-year'>POCIĄG</span></h1>
+  								<ul>
+  									<li>Directed by <strong><a class='director-link' href='/directors#jerzy'>Jerzy Kawalerowicz</a></strong>.</li>
+  									<li>Written by Jerzy Kawalerowicz and Jerzy Lutowski.</li>
+  								</ul>
+  								<ul>
+  									<li>1959 – Venice Film Festival – Georges Melies Premio Evrotecnica for Jerzy Kawalerowicz and special mention for Lucyna Winnicka.</li>
+  									<li>1959 – Złota Kaczka (Golden Duck Award, presented by the monthly Film), awarded in 1960.</li>
+  								</ul>
+  								<div class='row buy-tickets'>
+  									<div class='col-lg-12'>
+  										<a href='http://www.burnsfilmcenter.org/films/film-series/detail/78167#78355'>
+		  									<h3>
+		  										<img src='/images/flower.png' width="37px" height="37px" alt='blue flowers' />
+		  										buy tickets
+		  									</h3>
+		  								</a>
+	  								</div>
+  								</div>
+  							</div>
+  							<div class='col-lg-7 col-md-7 col-sm-7 columns'>
+  								<p>
+  									An intimate psychological study and a poetic tale of loneliness, <em>Night Train</em> brings two voyagers together accidentally in a train compartment. The subtle game of emotions — changing from mutual aversion to closeness without hope — is played out against the background of a microcosm of the human experience. A coquette, bored with her husband, attempts to seduce every available man; a former prisoner of a concentration camp fights his insomnia; old women go on a pilgrimage; and a skirt-chaser seeks his prey. With the arrival of police searching for a murderer, everything changes. It soon turns out that this seemingly average community is able to behave in a most unforeseen manner. An artistic work of great subtlety, <em>Night Train</em> offers itself open to various interpretations. 98 minutes.
+  								</p>
+  							</div>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs columns'>
+  								
+  							</div>
+  						</div>
+  					</div>
+  				</div>	
+  			</div>
+
+
+
+  			<!-- BEGIN FILM GROUP -->
+  			<div class='event-group'>
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12 event-image' style='background-image:url("/images/films/Pharaoh.jpg");'>
+  						<!-- Holds the film image. -->
+  					</div>
+  				</div>	
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12'>
+  						<div class='row info-row'>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs'>
+
+  							</div>
+  							<div class='col-lg-3 col-md-3 col-sm-3 columns'>
+  								<h1 class='film-title'><strong>Pharaoh</strong> <span class='release-year'>1965</span></h1>
+  								<h1 class='film-title polish-title'><span class='release-year'>POCIĄG</span></h1>
+  								<ul>
+  									<li>Directed by <strong><a class='director-link' href='/directors#jerzy'>Jerzy Kawalerowicz</a></strong>.</li>
+  									<li>Written by Jerzy Kawalerowicz and Tadeusz Konwicki, based on the novel by Bolesław Prus.</li>
+  								</ul>
+  								<ul>
+  									<li>1967 Academy Awards®, USA – Oscar® – nomination.</li>
+  									<li>1966 Cannes Film Festival – Palme d’Or – nomination.</li>
+  								</ul>
+  								<div class='row buy-tickets'>
+  									<div class='col-lg-12'>
+  										<a href='http://www.burnsfilmcenter.org/films/film-series/detail/78167#78513'>
+		  									<h3>
+		  										<img src='/images/flower.png' width="37px" height="37px" alt='blue flowers' />
+		  										buy tickets
+		  									</h3>
+		  								</a>
+	  								</div>
+  								</div>
+  							</div>
+  							<div class='col-lg-7 col-md-7 col-sm-7 columns'>
+  								<p>
+  									An epic production, including battle scenes featuring thousands and refined choreography, <em>Pharaoh</em> focuses on the young Egyptian ruler, Ramses XIII. With his young passions, love and idealism, he has to face the cold pragmatism of dealing with the country’s external enemies and internal struggles. His position reduced to but a figurehead, Ramses fights to regain power, ultimately falling to absolute control of knowledge by his priests. Riddled with psychological, moral, and philosophical questions on the nature of power, <em>Pharaoh</em> forgoes large battle scenes and romantic kisses in favor of a deeply meaningful artistic creation. Unfortunately, the German releasing firm that acquired the distribution rights to <em>Pharaoh</em> shortened the film for international release and then went bankrupt when there was little interest in the truncated version. Now restored to its original form, <em>Pharaoh</em> brandishes its heroism as a weapon — teaching all that noble defeat is better than silence in the face of morally corrupt politics. 152 minutes.
+  								</p>
+  							</div>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs columns'>
+  								
+  							</div>
+  						</div>
+  					</div>
+  				</div>	
+  			</div>
+
+
+
+
+
+  			<!-- BEGIN FILM GROUP -->
+  			<div class='event-group'>
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12 event-image' style='background-image:url("/images/films/PromisedLand.jpg");'>
+  						<!-- Holds the film image. -->
+  					</div>
+  				</div>	
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12'>
+  						<div class='row info-row'>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs'>
+
+  							</div>
+  							<div class='col-lg-3 col-md-3 col-sm-3 columns'>
+  								<h1 class='film-title'><strong>The Promised Land</strong> <span class='release-year'>1974</span></h1>
+  								<h1 class='film-title polish-title'><span class='release-year'>ZIEMIA OBIECANA</span></h1>
+  								<ul>
+  									<li>Directed by <strong><a class='director-link' href='/directors#andrezj'>Andrzej Wajda</a></strong>.</li>
+  									<li>Written by Andrzej Wajda.</li>
+  								</ul>
+  								<ul>
+  									<li>1976 Academy Awards®, USA –Oscar® – nomination.</li>
+                    <li>1976 Valladolid International Film Festival – Golden Spike – winner.</li>
+  									<li>1975 Moscow International Film Festival – Golden Prize – winner.</li>
+  									<li>1975 Polish Film Festival – Best Actor (Wojciech Pszoniak) – winner, Best Production Design (Tadeusz Kosarewicz) – winner, Best Music Score (Wojciech Kilar) – winner, Grand Prix Golden Lions Award – winner.</li>
+  									<li>1975 Chicago International Film Festival – Grand Prix: “Golden Hugo“ Award – winner.</li>
+  								</ul>
+  								<div class='row buy-tickets'>
+  									<div class='col-lg-12'>
+  										<a href='http://www.burnsfilmcenter.org/films/film-series/detail/78167#78196'>
+		  									<h3>
+		  										<img src='/images/flower.png' width="37px" height="37px" alt='blue flowers' />
+		  										buy tickets
+		  									</h3>
+		  								</a>
+	  								</div>
+  								</div>
+  							</div>
+  							<div class='col-lg-7 col-md-7 col-sm-7 columns'>
+  								<p>
+  									This powerful drama is a tale about the strength of male friendship. “I have nothing, you have nothing, he has nothing. Taken together we have just enough to build a major factory.” Three friends — a Polish nobleman, Karol Borowiecki; a German, Max Baum; and a Jew, Moritz Welt — shrink from nothing, including treachery and fraud, to build their empire. But ruthless business tactics and an ill-fated affair leave Borowiecki with a choice: either change his ways or sacrifice all compassion in order to protect his financial capital. In the footsteps of Dickens, Mr. Wajda paints a bleak picture of 19th-century Łódź, a chaotic city littered with dangerous factories and devoid of true culture. One of the most outstanding Polish films, <em>The Promised Land</em> was the winner of numerous prizes, including the Golden Lion and an Academy Award® nomination. 169 minutes.
+  								</p>
+  							</div>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs columns'>
+  								
+  							</div>
+  						</div>
+  					</div>
+  				</div>	
+  			</div>
+
+
+
+
+  			<!-- BEGIN FILM GROUP -->
+  			<div class='event-group'>
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12 event-image' style='background-image:url("/images/films/TheSaragossaManuscript.jpg");'>
+  						<!-- Holds the film image. -->
+  					</div>
+  				</div>	
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12'>
+  						<div class='row info-row'>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs'>
+
+  							</div>
+  							<div class='col-lg-3 col-md-3 col-sm-3 columns'>
+  								<h1 class='film-title'><strong>The Saragossa Manuscript</strong> <span class='release-year'>1964</span></h1>
+  								<h1 class='film-title polish-title'><span class='release-year'>RĘKOPIS ZNALEZIONY W SARAGOSSIE</span></h1>
+  								<ul>
+  									<li>Directed by <strong><a class='director-link' href='/directors#wojciech'>Wojciech Has</a></strong>.</li>
+  									<li>Written by Tadeusz Kwiatkowski.</li>
+  								</ul>
+  								<ul>
+  									<li>1971 Cinema Writers Circle Awards, Spain – Special Award – winner.</li>
+  									<li>1965 IFF Edinburg – special mention.</li>
+  									<li>1965 IFF San Sebastian – CIDALC prize, Award of the International Journalist’s Club.</li>
+  								</ul>
+  								<div class='row buy-tickets'>
+  									<div class='col-lg-12'>
+  										<a href='http://www.burnsfilmcenter.org/films/film-series/detail/78167#78193'>
+		  									<h3>
+		  										<img src='/images/flower.png' width="37px" height="37px" alt='blue flowers' />
+		  										buy tickets
+		  									</h3>
+		  								</a>
+	  								</div>
+  								</div>
+  							</div>
+  							<div class='col-lg-7 col-md-7 col-sm-7 columns'>
+  								<p>
+  									A favorite film of Jerry Garcia and Luis Buñuel, <em>The Saragossa Manuscript</em> is a brilliant adaptation of one of the greatest works of world literature. It is a Chinese box tale — a travel story about the supernatural and mystical opposed to the humanist materialism. It is 1739 as Alphonse van Worden crosses the wild range of the Sierra Morena, a land said to be inhabited only by demons — evil spirits and invisible hands that push travellers into chasms. Although he refuses to listen to those tales, his journey will be a sequence of supernatural and frightful events. But maybe they’re only illusions? 182 minutes.
+  								</p>
+  							</div>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs columns'>
+  								
+  							</div>
+  						</div>
+  					</div>
+  				</div>	
+  			</div>
+
+
+  			<!-- BEGIN FILM GROUP -->
+  			<div class='event-group'>
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12 event-image' style='background-image:url("/images/films/killingfilm.jpg");'>
+  						<!-- Holds the film image. -->
+  					</div>
+  				</div>	
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12'>
+  						<div class='row info-row'>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs'>
+
+  							</div>
+  							<div class='col-lg-3 col-md-3 col-sm-3 columns'>
+  								<h1 class='film-title'><strong>A Short Film About Killing</strong> <span class='release-year'>1987</span></h1>
+  								<h1 class='film-title polish-title'><span class='release-year'>KRÓTKI FILM O ZABIJANIU</span></h1>
+  								<ul>
+  									<li>Directed by <strong><a class='director-link' href='/directors#kieslowski'>Krzysztof Kieślowski</a></strong>.</li>
+  									<li>Written by Krzysztof Kieślowski and Krzysztof Piesiewicz.</li>
+  								</ul>
+  								<ul>
+  									<li>1990 Bodil Awards – winner.</li>
+  									<li>1990 French Syndicate of Cinema Critics – Critics Award – winner.</li>
+  									<li>1990 Robert Festival – winner.</li>
+  									<li>1988 Cannes Film Festival – FIPRESCI Prize, Jury Prize winner, Palme d’Or – nomination.</li>
+  									<li>1988 European Film Awards – European Film Award – winner.</li>
+  									<li>1988 Polish Film Festival – Golden Lions – winner.</li>
+  								</ul>
+  								<div class='row buy-tickets'>
+  									<div class='col-lg-12'>
+  										<a href='http://www.burnsfilmcenter.org/films/film-series/detail/78167#78182'>
+		  									<h3>
+		  										<img src='/images/flower.png' width="37px" height="37px" alt='blue flowers' />
+		  										buy tickets
+		  									</h3>
+		  								</a>
+	  								</div>
+  								</div>
+  							</div>
+  							<div class='col-lg-7 col-md-7 col-sm-7 columns'>
+  								<p>
+  									On a somber March day, the paths of three men cross: the cabbie Marian cleans his car; the lawyer Piotr celebrates passing his bar exam; while in the same café, 20-year-old Jacek prepares his murder weapon. The film is a psychological and ethical study of murder. A sensation at the Cannes film festival and recipient of numerous awards, <em>A Short Film About Killing</em> opened the door to an international career for director Krzysztof Kieślowski. 85 minutes
+  								</p>
+  							</div>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs columns'>
+  								
+  							</div>
+  						</div>
+  					</div>
+  				</div>	
+  			</div>
+
+
+  			<!-- BEGIN FILM GROUP -->
+  			<div class='event-group'>
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12 event-image' style='background-image:url("/images/films/wedding1.jpg");'>
+  						<!-- Holds the film image. -->
+  					</div>
+  				</div>	
+  				<div class='row'>
+  					<div class='col-lg-12 col-md-12 col-sm-12'>
+  						<div class='row info-row'>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs'>
+
+  							</div>
+  							<div class='col-lg-3 col-md-3 col-sm-3 columns'>
+  								<h1 class='film-title'><strong>The Wedding</strong> <span class='release-year'>1972</span></h1>
+  								<h1 class='film-title polish-title'><span class='release-year'>Wesele</span></h1>
+  								<ul>
+  									<li>Directed by <strong><a class='director-link' href='/directors#andrezj'>Andrzej Wajda</a></strong>.</li>
+  									<li>Written by Andrzej Kijowski, based on the play by Stanisław Wyspiański.</li>
+  								</ul>
+  								<ul>
+                    <li>1974 “Golden Camera“ – Award of Film magazine for the best Polish film.</li>
+  									<li>1973 San Sebastián International Film Festival – Silver Seashell – winner.</li>
+  									<li>1973 “Summer of Films“ Film Festiwal, Łagów – Grand Prix “Golden Grape“ Award, Best Screenplay (Andrzej Kijowski), Best Production Design (Tadeusz Wybult, Krystyna Zachwatowicz, Maciej Maria Putowski), Best Cinematography (Witold Sobociński).</li>
+  								</ul>
+  								<div class='row buy-tickets'>
+  									<div class='col-lg-12'>
+  										<a href='http://www.burnsfilmcenter.org/films/film-series/detail/78167#78366'>
+		  									<h3>
+		  										<img src='/images/flower.png' width="37px" height="37px" alt='blue flowers' />
+		  										buy tickets
+		  									</h3>
+		  								</a>
+	  								</div>
+  								</div>
+  							</div>
+  							<div class='col-lg-7 col-md-7 col-sm-7 columns'>
+  								<p>
+  									Academy Award®-winning director Andrzej Wajda takes us to a wedding party. People talk, drink, dance, and flirt. It is an unusual 19th-century wedding; the marriage of an intellectual from a big town with a simple country girl. Families and friends from both sides regard the alliance with skepticism and curiosity. The director uses this event as a pretext to expose a gallery of characters from various walks of life, including a priest, a poet, a farmhand, and wife of a counselor. The young and the old, the rich and the poor — all gather at the party. Unexpectedly, something uncanny begins to permeate the joyful celebrations. Some of the guests see mysterious ghosts and hidden grudges, complexes and yearnings step out of the hidden corners of their souls. A brilliant film adaptation of one of the most important Polish plays, set to lively country music. 107 minutes.
+  								</p>
+  							</div>
+  							<div class='col-lg-1 col-md-1 hidden-sm hidden-xs columns'>
+  								
+  							</div>
+  						</div>
+  					</div>
+  				</div>	
+  			</div>
+
+
+
+
+  		<!-- END MAIN CONTENT -->
+  		</div>
+  		<!-- END MAIN CONTENT -->
+
+
+
+  		<!-- BEGIN FOOTER -->
+  		<!-- END FOOTER -->
+  	</div>
+  	<!-- END BOOTSTRAP CONTAINER -->
+
+	<!-- **************************** -->
+	<!-- Javascript files start here. -->
+	<!-- **************************** -->
+
+	<!-- jQuery, has a fallback because we reeeeeally need it -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	if (typeof jQuery == 'undefined') {
+	    document.write(unescape("%3Cscript src='/bower_components/jquery/dist/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+	}
+	</script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script> <!-- Bootstrap JS -->
+	<script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script> <!-- Vimeo JS API -->
+	<script src="javascripts/jquery-smartresize.js"></script> <!-- For Debouncing resize events -->
+	<script type="application/javascript">
+    //From StackOverflow  http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+    (function($) {
+    $.QueryString = (function(a) {
+            if (a == "") return {};
+            var b = {};
+            for (var i = 0; i < a.length; ++i)
+            {
+                var p=a[i].split('=');
+                if (p.length != 2) continue;
+                b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+            }
+            return b;
+        })(window.location.search.substr(1).split('&'))
+    })(jQuery);
+
+
+
+		//There's just so much in here...
+		var magicNumberForFilmImageHeight = .35;
+		var desktopMagicNumber = .35;
+		var mobileMagicNumber = .35;
+
+		var headerMagicNumber = 1.82767624020;
+
+		var $body = $("body");
+		var $headerimage = $(".header-image");
+		var $goodnav = $("#good-nav");
+		var $modalbody = $(".modal-body");
+		var $mobilemenu = $(".mobile-menu");
+		var $mobilepadding = $(".mobile-padding");
+		var $omgnav = $(".omgnav");
+
+		var $testrow = $(".testrow");
+
+		var $eventImages = $(".event-image");
+		var $navlinks = $omgnav.find("li a");
+
+    var doPlay = 0;
+
+		$(document).ready(function(){
+			$.fx.off = false;
+
+
+
+        doPlay = $.QueryString["play"];
+
+		    //Set the vertical sizes of everything.
+		    GetBrowserHeight();
+
+		    //Set up vimeo, listen for player events.
+		    InitVimeoPlayer();
+
+	   		//Set up the Play button for the trailer.
+	   		$(".play-trailer-icon, .play-trailer-link")
+	   			.click(function(e){
+	   				e.preventDefault();
+	   				PlayTrailer();
+	   			});
+
+	    	//Set up the Stop button for the trailer.
+	    	$(".video-holder")
+	    		.click(function(e){
+	    			e.preventDefault();
+	    			StopTrailer();
+	    		});
+
+	    	//Cache some things.
+	    	$body = $("body");
+	    	$headerimage = $(".header-image");
+	    	$mobilemenu = $(".mobile-menu");
+	    	$mobilepadding = $(".mobile-padding");
+	    	$eventImages = $(".event-image");
+	    	$navlinks = $omgnav.find("li a");
+
+	    	//Close the mobile menu when clicked instead of freezing.
+	    	$mobilecollapser = $mobilemenu.find(".collapse");
+		    $mobilemenu
+		    	.find("a")
+		    	.on("click", function(e){
+			    	$mobilecollapser.collapse("hide");
+			    });
+
+		    //Set the margin-top of the navbar so it gets covered by the header image.
+	    	$omgnav
+	    		.css("margin-top", - $omgnav.height());
+	    	
+	    	//Create a function so the affix works after resizing.
+	    	$omgnav.affix({
+	    		offset:{
+	    			top: function(){ 
+	    				return $headerimage.height() - $omgnav.height(); 
+	    			}
+	    		}
+	    	});
+
+	    	//Listen for affix events to set margin-top on nav to get overlay effect when not affixed.
+	    	$omgnav
+	    		.on("affix.bs.affix", function(e){
+	    			$omgnav.css("margin-top", 0);
+	    		})
+	    		.on("affix-top.bs.affix", function(e){
+	    			$omgnav.css("margin-top", - $omgnav.height());
+		    	});
+
+
+        $(".current-page").on("click", function(e){ //If you're on films, and you click films... scroll down to the films.
+          e.preventDefault();
+          var first = $(".event-image").first().offset().top;
+          $('html,body').animate({scrollTop: first}, 500);       
+        });
+
+		});
+
+		var $vimeoPlayer;
+		var isVimeoReady = false;
+
+		function InitVimeoPlayer(){
+			//console.log("Initting vimeo player.");
+			var player = $("#vimeoplayer")[0];
+			$f(player).addEvent('ready', vimeoReady);
+		}
+
+		function addEvent(element, eventName, callback) {
+            if (element.addEventListener) {
+                element.addEventListener(eventName, callback, false);
+            }
+            else {
+                element.attachEvent(eventName, callback, false);
+            }
+        }
+
+		function vimeoReady(e){
+			isVimeoReady = true;
+			$vimeoPlayer = $f(e);
+			$vimeoPlayer.addEvent("finish", vimeoFinish);
+			$vimeoPlayer.addEvent("pause", vimeoPause);
+
+      if(doPlay == 1){
+        //PLAY VIDEO!
+        PlayTrailer();
+      }
+		}
+
+		function vimeoFinish(e){
+		    $vimeoPlayer.seekTo(0);
+			StopTrailer();
+		}
+
+		function vimeoPause(e){
+			StopTrailer();
+		}
+
+		function PlayTrailer(){
+			//console.log("CLICKIED!");
+			if(isVimeoReady){
+		    	$(".video-holder").fadeIn(); //Show the video.
+		    	$(".title-overlay, .omgnav").fadeOut("slow", function(){
+		    		//If not mobile...
+		    		if($(window).width() > 768){
+		    			setTimeout(function(e){
+			    			$vimeoPlayer.api('play');
+			    		}, 500);	
+		    		}
+		    	}); //Hide the title, start playing when it's done.
+		    	$('html,body').animate({scrollTop: 0}, 500);		    	
+		    	//Start playing.
+		    }else{
+		    	$(".video-holder").fadeIn(); //Show the video.
+		    	$(".title-overlay, .omgnav").fadeOut("slow"); //Hide the title, start playing when it's done.
+		    }
+		}
+
+		function StopTrailer(){
+			$(".video-holder").fadeOut("slow"); //Hide the video.
+		    $(".title-overlay, .omgnav").fadeIn("slow"); //Show the title.		    	
+		}
+
+		//$(window).smartresize(GetBrowserHeight); //Debounce resize events for slower computers.
+		$(window).resize(GetBrowserHeight);
+
+		function GetBrowserHeight(){
+			//Get the window dimensions.
+		   	var $height = $(window).height();
+		   	var $width = $(window).width();
+
+		   	//Set the font-size in the nav menu so it never looks too big.
+	    	if($width < 1200){
+	    		$navlinks.css("font-size", "1em"); //Smallify it.
+	    	}else{
+	    		$navlinks.css("font-size", "1.5em"); //Biggify it.
+	    	}
+		   	
+	    	//If it's affix-top, it should have the offset. Otherwise... no.
+	    	if($omgnav.hasClass("affix-top")){
+	    		$omgnav.css("margin-top", - $omgnav.height());
+	    	}
+
+	    	//Make sure mobile padding is set.
+	    	if($width < 769 && $mobilepadding.css("height") == 0){
+	    		$mobilepadding.css("padding-top", $mobilemenu.height());
+	    	}
+
+	    	//Set film image height based on width of device/browser.
+    		if($width <= 768){
+    			$eventImages.css("height", $width * .75); //Should take up 75% of screen width as height.
+    		}else{
+    			$eventImages.css("height", $width * magicNumberForFilmImageHeight); //Should take up 35% of screen as height.
+    		}
+
+			//Set the height of film images based on width of page (preserve aspect ratio)
+    		$mobilepadding.css("padding-top", $mobilemenu.height());
+    		var aspectRatio = $width/$height; //Get the current aspect ratio of the browser.
+    		var h = $width / headerMagicNumber;
+    		var navHeight = $goodnav.height();
+		    
+    		//Adjust background to cut off or not cut off.
+    		if( aspectRatio < headerMagicNumber ){
+    			$headerimage.css("height", h);
+    			$headerimage.css("background-size", "contain");
+    		}else{
+    			$headerimage.css("height", h);
+    			$headerimage.css("background-size", "cover");
+    		}
+	    }
+    </script>
+
+    	<!-- ************************ -->
+    	<!-- End of Javascript files. -->
+    	<!-- ************************ -->
+    </body>
+</html>
