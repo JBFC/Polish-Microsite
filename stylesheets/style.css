@@ -1,0 +1,543 @@
+/* Sam Kelly, Jacob Burns Film Center. July 30, 2014. */
+html, body{
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0px;
+	padding-top:.15em;
+	padding-bottom:.15em;
+}
+ul{
+	padding-left:0;
+	list-style-type:none;
+}
+a{
+	color:lightGray;
+}
+a:hover{
+	color:#fff;
+	text-decoration:none;
+}
+.director-link{
+	text-decoration:underline;
+}
+
+.event-group{
+	font-size:1.15em;
+}
+
+
+.header-image{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("/images/Polish-Splash_opt.png");
+	z-index:5;
+}
+.title-overlay{
+	margin-left:-15px;
+	margin-right:-15px;
+	width:100%;
+	position:absolute;
+	text-align:center;
+    text-transform:uppercase;
+    bottom:0;
+    background:#000;
+    z-index:0;
+}
+.title-overlay a{
+	z-index:5;
+	position:relative;
+}
+
+.main-title{
+	color:#fff;
+	-webkit-text-stroke: 2px black;
+	font-size:5em;
+	font-weight:bolder;
+	text-align:center;
+}
+
+.play-trailer-icon a{
+	font-size:2.5em;
+	color:#fff;
+}
+.play-trailer-icon a:hover{
+	color:#2B2E6B;
+}
+.video-background{
+
+}
+.video-holder{
+	position:absolute;
+	background:blue;
+	width:100%;
+	height:100%;
+	display:none;
+}
+.event-group:nth-child(1){
+	margin-top:0;
+}
+.event-group{
+	color:#fff;
+}
+.event-group .row{
+	background:#993365;
+}
+
+.info-row{
+	padding-top:1.5em;
+	padding-bottom:3em;
+	border-top:thin solid black;
+	border-bottom:thin solid black;
+}
+
+.event-image{
+	background:#CC0099;
+	background-size:cover;
+	background-image:url("/images/australia-2100.jpg");
+	background-position:center;
+}
+
+.film-info{
+
+}
+.film-title{
+	text-transform:uppercase;
+	margin-top:0; margin-bottom:0;
+	padding:0;
+}
+.director-group .film-title, .director-group .film-title strong{
+	width:100%;
+	max-width:100%;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.release-year{
+	font-weight:lighter; font-size:.75em;
+	padding-top:0;
+	margin-top:0;
+}
+.polish-title{
+	margin-bottom:.5em;
+}
+
+
+/* BOOTSTRAP MODAL STYLE OVERRIDES HOPEFULLY */
+.modal{
+	left:auto;
+	width:100%;
+}
+html body .modal .modal-dialog{
+	margin:auto;
+	width:100%;
+	margin-left:auto;
+}
+
+.modal-content{
+	border:none;
+	border-radius:0;
+	background:#000;
+	color:#fff;
+	width:100%;
+	height:auto;
+}
+
+.modal-open .modal {
+	/*overflow-y:scroll;*/
+}
+
+.modal .close{
+	color:#fff;
+	opacity:1;
+	font-size:2em;
+}
+
+/* Everything here worked great, until the Fire Nation attacked. */
+#good-nav{
+	padding:0;
+	margin:0;
+	margin-left:-15px;
+	margin-right:-15px;
+	text-transform:uppercase;
+	background:#2B2E6B;
+	border-radius:0px;
+	border:none;
+}
+#good-nav .navbar-justified li a{
+	position:relative;
+	z-index:999999999;
+	color:#fff;
+	font-weight:bold;
+	font-size:2em;
+}
+#good-nav .navbar-justified li a:hover{
+	color:lightGray;
+}
+#good-nav .navbar-justified .active a{
+	background:none;
+}
+.navbar-header{
+	text-align:center;
+}
+.navbar-header .navbar-toggle{
+	float:none;
+}
+@media (min-width: 768px){
+	.navbar-justified{
+		width:100%;
+		text-align:center;
+		display:block;
+		table-layout:none;
+		margin:0;
+	}
+
+	.navbar-justified>li{
+		display:table-cell;
+		width:1%;
+		float:none;
+	}
+}
+.navbar-header button{
+	position:relative;
+	z-index:5;
+}
+
+
+
+/* This is where it all goes to shit. */
+#good-nav .column{
+	
+}
+#good-nav li{
+	height:100%;
+	display:table-cell;
+	width:1%;
+}
+#good-nav li a{
+	position:relative;
+	z-index:999999999;
+	color:#fff;
+	font-weight:bold;
+	font-size:2em;
+}
+#good-nav .nav-justified li a:hover{
+	color:lightGray;
+	background:none;
+}
+#good-nav .nav-justified .active a{
+	background:none;
+}
+.nav-header{
+	text-align:center;
+}
+.navbar-header .navbar-toggle{
+	float:none;
+}
+.nav-justified{
+	width:100%;
+}
+
+@media (max-width: 1024px) {
+	.nav-justified li>a{
+		font-size:1em;
+	}
+}
+
+@media (min-width: 768px){
+
+	.nav-justified{
+		width:100%;
+		text-align:center;
+		display:block;
+		table-layout:none;
+		margin:0;
+	}
+
+	.nav-justified>li{
+		display:table-cell;
+		width:1%;
+		float:none;
+	}
+}
+
+.testrow{
+	position:relative;
+}
+.testrow .holder{
+	position:absolute;
+	z-index:1;
+	width:100%;
+}
+
+.holder{
+	background:#000;
+	color:#f00;
+	position:relative;
+	text-align:center;
+	margin-top:-3em;
+}
+
+.omgnav{
+	background:#2B2E6B;
+	color:#f00;
+	position:relative;
+	text-align:center;
+	font-size:1.5em;
+	text-transform:uppercase;
+}
+.omgnav ul{
+	padding-top:.4em;
+	padding-left:1em;
+	padding-right:1.5em;
+}
+.omgnav ul li{
+	display:table-cell;
+	width:1%;
+}
+.omgnav a{
+	color:#fff;
+	position:relative;
+	z-index:999;
+}
+
+
+
+/* Mobile Burger Menu - Totally good don't touch. */
+.mobile-menu{
+	background:#2B2E6B;
+}
+.mobile-menu li{
+	list-style-type:none;
+	font-size:1.5em;
+	text-align:center;
+}
+.mobile-menu li a{
+	color:#fff;
+}
+.mobile-menu li a:hover{
+	color:#000;
+}
+.mobile-menu .btn{
+	color:#fff;
+	border:0;
+}
+.mobile-menu .btn:hover{
+	color:lightGray;
+	background:transparent;
+}
+.mobile-menu .navbar-header button{
+	background-image:none;
+	background:#2B2E6B;
+	border:thin solid #2B2E6B;
+	color:#fff;
+}
+.mobile-menu .navbar-header button:hover{
+	background: #2B2E6B;
+	color:lightGray;
+}
+.mobile-menu .navbar-header button:visited{
+	background: #2B2E6B;
+}
+.mobile-menu .navbar-header button:active{
+	background: #2B2E6B;
+}
+.mobile-menu .navbar-header button:disabled{
+	background: #2B2E6B;
+}
+
+.header-group .navbar{
+	margin-bottom:0;
+}
+.navbar-fixed-top{
+	border:0 !important;
+}
+
+.mobile-padding{
+
+}
+
+
+
+.affix{
+	position:fixed;
+	width:100%;
+	z-index:1;
+}
+
+.floaty{
+
+}
+
+.buy-tickets a{
+	color:#fff;
+}
+.buy-tickets a:hover{
+	color:lightGray;
+}
+.extra-flower{
+	/* maybe in the future... */
+	padding-bottom:100%;
+	margin-bottom:-100%;
+}
+
+.red{
+	background:#f00;
+}
+.green{
+	background:#0f0;
+}
+.blue{
+	background:#00f;
+}
+
+.director-group{
+	color:#fff;
+}
+.director-group .info-row{
+	border:none;
+}
+.director-headshot{
+	border:thick solid black;
+	margin-right:1em;
+	margin-bottom:1em;
+	max-height:350px;
+	max-width:300px;
+}
+
+
+.full-width-pic{
+	min-height:440px;
+	max-height:440px;
+	background-size:cover;
+	background-image:url("/images/theater-bw.jpg");
+	background-position:center;
+}
+.about-row h4{
+	margin-top:1.5em;
+}
+.about-row p{
+	margin:1.5em;
+}
+
+
+.trailer-video{
+	margin-bottom:2em;
+}
+
+.about-intro{
+	font-size:1.65em;
+	color:#2B2E6B;
+}
+
+.event-group .about-intro{
+	color:#fff;
+	padding-top:1em;
+	padding-left:3em;
+	padding-right:3em;
+}
+.final{
+	padding-bottom:1.5em;
+}
+
+.even{
+	background:#993366;
+}
+.odd{
+	background:#ED4F24;
+}
+
+.director-group a{
+	font-weight:bold;
+	color:#fff;
+	font-size:1.25em;
+}
+.director-group a:hover{
+	font-weight:bold;
+	color:lightGray;
+}
+.trailer-video iframe{
+	height:600px;
+}
+
+.trailer-title{
+	font-size:1.5em;
+	text-align:center;
+}
+
+.mini-video h3{
+	max-height:1.25em;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	font-size:1em;
+}
+
+
+.film-title{
+	line-height:.9;
+}
+
+.directors-header{
+	padding-bottom:1.5em;
+}
+
+.inner-navbar{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	background:#2B2E6B;
+	z-index:5;
+	text-align:center;
+	font-size:1.25em;
+}
+.inner-navbar a{
+	z-index:100;
+}
+
+
+
+.jbfc-info a{
+	color:blue;
+}
+.jbfc-info a:hover{
+	color:lightBlue;
+}
+
+
+.polish-title{
+	font-style:italic;
+}
+
+.anchor{
+	display:block;
+	position:relative;
+	top:-3em;
+	visibility:hidden;
+}
+
+
+@media (max-width: 992px) {
+	
+	.trailer-video iframe{
+		max-height:450px;
+	}
+}
+@media (max-width: 765px) {
+	
+	.trailer-video iframe{
+		max-height:375px;
+	}
+}
+
+@media (max-width: 540px) {
+	
+	.trailer-video iframe{
+		max-height:300px;
+	}
+}
+@media (max-width: 320px) {
+	
+	.trailer-video iframe{
+		max-height:150px;
+	}
+}
